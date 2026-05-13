@@ -1,0 +1,42 @@
+{
+  "strain_default_best_config": "A_Global only",
+  "strain_default_best_MAE": 0.007798205698333742,
+  "strain_default_best_R2": 0.5672845274385666,
+  "strain_tuned_best_config": "A_Global only",
+  "strain_tuned_best_MAE": 0.007456704618884512,
+  "strain_tuned_best_R2": 0.53110764063132,
+  "strain_best_hp": {
+    "et_kwargs": {
+      "n_estimators": 300,
+      "max_depth": 25,
+      "min_samples_leaf": 1,
+      "max_features": "log2"
+    },
+    "gbr_kwargs": {
+      "n_estimators": 200,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "min_samples_leaf": 15
+    }
+  },
+  "stress_default_best_config": "A_Global only",
+  "stress_default_best_MAE": 0.5379585910519914,
+  "stress_default_best_R2": 0.7017321581500191,
+  "stress_tuned_best_config": "B_Low only",
+  "stress_tuned_best_MAE": 0.48657206928610774,
+  "stress_tuned_best_R2": 0.7529135708272281,
+  "stress_best_hp": {
+    "et_kwargs": {
+      "n_estimators": 300,
+      "max_depth": 25,
+      "min_samples_leaf": 1,
+      "max_features": "log2"
+    },
+    "gbr_kwargs": {
+      "n_estimators": 200,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "min_samples_leaf": 15
+    }
+  }
+}

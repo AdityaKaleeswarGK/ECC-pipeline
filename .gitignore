@@ -1,4 +1,20 @@
+# Ignore everything by default
 *
-!ECC_Complete_Pipeline.ipynb
+
+# Allow these root-level files
 !.gitignore
-!ECC.ipynb
+!README.md
+!ECC_FINAL_pipeline.ipynb
+
+# Allow the Mondorian_CQR folder itself
+!Mondorian_CQR/
+
+# Allow result files inside Mondorian_CQR (CSVs, PNGs, JSON)
+!Mondorian_CQR/*.csv
+!Mondorian_CQR/*.png
+!Mondorian_CQR/*.json
+
+# Explicitly ignore notebooks and data files inside Mondorian_CQR
+Mondorian_CQR/*.ipynb
+Mondorian_CQR/*.xlsx
+Mondorian_CQR/*.npz
