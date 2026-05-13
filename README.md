@@ -233,15 +233,3 @@ openpyxl
 ```bash
 jupyter notebook ECC_FINAL_pipeline.ipynb
 ```
-
----
-
-## Citation
-
-If you use this pipeline or dataset, please cite accordingly.
-
----
-
-## License
-
-This project is for academic and research purposes.
