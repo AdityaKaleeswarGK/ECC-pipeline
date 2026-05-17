@@ -1,20 +1,40 @@
 # Ignore everything by default
 *
 
-# Allow these root-level files
+# ── Core tracked files ────────────────────────────────────────────────────────
 !.gitignore
 !README.md
-!ECC_FINAL_pipeline.ipynb
+!ECC_catboost_mondrian_cqr.ipynb
+!requirements.txt
 
-# Allow the Mondorian_CQR folder itself
-!Mondorian_CQR/
+# ── data/ ─────────────────────────────────────────────────────────────────────
+!data/
+!data/*.xlsx
+!data/*.csv
 
-# Allow result files inside Mondorian_CQR (CSVs, PNGs, JSON)
-!Mondorian_CQR/*.csv
-!Mondorian_CQR/*.png
-!Mondorian_CQR/*.json
+# ── results/ ─────────────────────────────────────────────────────────────────
+!results/
+!results/*.png
+!results/*.csv
 
-# Explicitly ignore notebooks and data files inside Mondorian_CQR
-Mondorian_CQR/*.ipynb
-Mondorian_CQR/*.xlsx
-Mondorian_CQR/*.npz
+# ── other_implementations/ ───────────────────────────────────────────────────
+!other_implementations/
+!other_implementations/*.ipynb
+
+# ── Python / Jupyter cache ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ── CatBoost training logs ────────────────────────────────────────────────────
+catboost_info/
+
+# ── TabPFN — local source clone + model weight cache (kept locally, not pushed) ──
+# To set up: git clone https://github.com/automl/TabPFN.git  OR  pip install tabpfn
+# The cache dir below is where TabPFN downloads its checkpoint on first run.
+TabPFN/
+tabpfn_cache/
+.tabpfn_token
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
