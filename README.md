@@ -80,11 +80,11 @@ Physics-based features (Li 2003 micromechanics) provide the model with domain kn
 
 Sorted prediction intervals (80% CI) for strain. Black dots = true values, colored band = conformal interval.
 
-![Second Strain — Mondrian CQR prediction intervals](results/mondrian_cqr_strain_intervals.png)
+![Second Strain — Mondrian CQR prediction intervals](results/catboost_Second_Strain_metrics.png)
 
 ### Second Stress — Mondrian CQR Intervals
 
-![Second Stress — Mondrian CQR prediction intervals](results/mondrian_cqr_stress_intervals.png)
+![Second Stress — Mondrian CQR prediction intervals](results/catboost_Second_Stress_metrics.png)
 
 ### Headline Numbers
 
