@@ -4,6 +4,7 @@
 # ── Core tracked files ────────────────────────────────────────────────────────
 !.gitignore
 !README.md
+!README_*.md
 !ECC_catboost_mondrian_cqr.ipynb
 !requirements.txt
 
@@ -20,6 +21,7 @@
 # ── other_implementations/ ───────────────────────────────────────────────────
 !other_implementations/
 !other_implementations/*.ipynb
+!other_implementations/README_*.md
 
 # ── Python / Jupyter cache ────────────────────────────────────────────────────
 __pycache__/
